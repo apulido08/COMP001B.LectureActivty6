@@ -1,0 +1,35 @@
+/* example 1 styling */
+button {
+    color: #1D9AF2;
+    background-color: #292D3E;
+    border: 1px solid #1D9AF2;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height: 32px;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+  }
+  button:hover{
+    transform: rotateZ(-30deg);
+  }
+
+
+  /* Button style in example 2 */
+  button{
+    padding: 10px 45px; 
+    background-color: #B71212;
+    color: #ffffff; 
+    border: none; 
+    font-size:1rem;
+    font-weight:bold;
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  /* Button is centered in example 2 */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }

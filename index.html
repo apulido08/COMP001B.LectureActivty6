@@ -7,15 +7,25 @@
 
     <!-- Bootstrap CSS Code -->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="main.css"> <!-- link for example 1 -->
+    <link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css"> <!-- link for example 2-->
     <title>COMP001B Lecture Activity 6</title>
 </head>
 <body>
 
-    <h1>Badges Ex.<span class="badges badge secondary">Badges</span></h1>  <!--Badges examples will scale to parent (h1) element -->
+    <h1>Badges Ex.<span class="badges badge secondary">Badges</span></h1>  <!-- Badges examples will scale to parent (h1) element -->
 
-    <button type="button" class="btn btn-danger">button ex.</button>  <!-- button for button example -->
+    <button type="button" class="btn btn-danger">button ex.</button>  <!-- This will turn red once activated -->
 
+    <!-- Alert now turns yellow when activated-->
     <div class="alert alert-warning" role="alert">alert ex.</div>
+
+    <!-- Third party example of button -->
+    <button>Rotate</button>
+
+    <!-- Example 2 -->
+    <div class="container">
+        <button aria-label="HTML special characters: &#9787; &#9986; &#9820;" data-balloon-pos="up">Hover me!></button>
+    </div>
 </body>
 </html>
